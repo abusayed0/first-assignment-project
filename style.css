@@ -7,8 +7,9 @@ section{
 }
 .top-banner{
     text-align:center;
-    color: white;
     padding: 150px;
+    color: white;
+    height: 100vh;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
