@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+}
+section{
+    margin-bottom: 100px;
+}
+.top-banner{
+    text-align:center;
+    color: white;
+    padding: 150px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.donation-request{
+    text-align: center;  
+}
+.amount-selector{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+.amount{
+    padding: 50px 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;  
+}
+#selected:hover{
+        border: 1px solid tomato;
+        background-color: blanchedalmond;
+}
+#your-choice{
+        margin-left: 200px;
+        border: none;
+}
+    #donate{
+        margin-left: 200px;
+}
+.donate-plane{
+    text-align: center;
+}
+.all-donation-sector{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+    
+    
+#food-sector{
+    background-color: rgb(250, 235, 216);
+}
+#shelter-sector{
+    background-color: rgb(156, 141, 117);
+}
+#medicine-sector{
+    background-color: rgb(250, 218, 218);
+}
+.sector{
+    width: 30%; 
+    padding:  5px;    
+}
+.half-width{ 
+    width: 50%;
+    margin-left: 50px;
+}
+.donation-picture{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.half-width img{ 
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.input{
+    margin-left: 450px;
+}
+.input-form{
+    height: 50px;
+    width: 300px;
+    background-color: powderblue;
+    padding: 100px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(203, 240, 228);
+}
+.footer-h1{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+#subs {
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    border-radius: 5px;
+}
